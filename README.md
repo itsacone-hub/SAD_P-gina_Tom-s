@@ -1,1 +1,0 @@
-# SAD_P-gina_Tom-s
