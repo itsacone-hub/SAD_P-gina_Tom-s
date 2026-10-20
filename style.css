@@ -1,0 +1,12 @@
+*{
+    font-family: 'Times New Roman';
+    shape-rendering: crispEdges;
+    image-rendering: pixelated;
+}
+.card{
+
+    height: 12vh;
+    width: 9vw;
+    background-color: rgb(230 240 160 / 1);
+    clip-path: ellipse(130px 140px at 10% 20%);
+}
