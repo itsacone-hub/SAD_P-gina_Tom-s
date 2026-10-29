@@ -3,10 +3,29 @@
     shape-rendering: crispEdges;
     image-rendering: pixelated;
 }
+section{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0.3rem;
+}
 .card{
-
-    height: 12vh;
-    width: 9vw;
+    padding: 1.2rem;
+    height: auto;
+    width: 18vw;
     background-color: rgb(230 240 160 / 1);
-    clip-path: ellipse(130px 140px at 10% 20%);
+    box-shadow: 1px 2px 9px black;
+
+}
+main{
+    display: flex;
+}
+.menu{
+    background-color: gray;
+    width: 18rem;
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    border-bottom: 4px solid #808080;
+    border-right: 4px solid #808080;
+    box-shadow: 1px 2px 9px black;
+
 }
